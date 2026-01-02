@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto; /* центрування сайту */
+    font-family: Arial, sans-serif;
+}
+
+/* nav – зліва */
+nav {
+    float: left;
+    width: 20%;
+    height: 60px;
+    background-color: #e85b6b;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* header – справа від nav */
+header {
+    float: right;
+    width: 80%;
+    height: 60px;
+    background-color: #9fe7f5;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* основний контент */
+.content {
+    clear: both;
+}
+
+/* main – зліва */
+main {
+    float: left;
+    width: 75%;
+    height: 300px;
+    background-color: #c8f2dc;
+    text-align: center;
+    line-height: 300px;
+}
+
+/* aside – справа */
+aside {
+    float: right;
+    width: 25%;
+    height: 300px;
+    background-color: #5f8f3a;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+}
+
+/* footer – внизу, по центру */
+footer {
+    clear: both;
+    height: 60px;
+    background-color: #d99ad8;
+    text-align: center;
+    line-height: 60px;
+}
